@@ -51,7 +51,7 @@ Imports: binom, scales, dplyr (>= 0.8.0), rlang, forcats, tidyr (>=
         1.0.0), tibble, glue
 Suggests: testthat (>= 2.1.0), outbreaks
 License: GPL-3
-MD5sum: a7aa0f6715c6f145ee2eee6631ed0a2b
+MD5sum: 719633cbb0210d0aab8fb521f8bf501e
 NeedsCompilation: no
 
 Package: sitrep
