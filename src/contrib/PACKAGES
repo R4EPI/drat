@@ -34,7 +34,7 @@ Version: 0.0.0.9000
 Imports: rlang, forcats
 Suggests: testthat, covr
 License: GPL-3
-MD5sum: b51302c0b520a6f8e65bfaee2306f5bd
+MD5sum: 340cf4eabd09781504795ae43a6bb45f
 NeedsCompilation: no
 
 Package: msfdict
