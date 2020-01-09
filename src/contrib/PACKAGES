@@ -1,0 +1,59 @@
+Package: apyramid
+Version: 0.1.0
+Depends: R (>= 3.2.0)
+Imports: ggplot2 (>= 3.0.0), tidyselect, rlang, forcats, dplyr, scales, glue
+Suggests: testthat (>= 2.1.0), survey, srvyr, vdiffr, covr, outbreaks, knitr, rmarkdown
+License: GPL-3
+MD5sum: 4d5f7783e65a7d9759a640f868ef95e7
+NeedsCompilation: no
+
+Package: epibuffet
+Version: 0.0.0.9000
+Imports: dplyr (>= 0.8.3), rlang (>= 0.4.0), tidyr (>= 1.0.0), stats, glue, purrr, tidyselect, tibble (>= 2.1.0), survey, srvyr, forcats, msfmisc
+Suggests: testthat, matchmaker, msfdict
+License: GPL-3
+MD5sum: 0a734e0328c686667120bf875579bbee
+NeedsCompilation: no
+
+Package: linelist
+Version: 0.0.39.9000
+Depends: R (>= 3.0.0)
+Imports: lubridate, rlang, epitrix, forcats, utils, stats, crayon
+Suggests: outbreaks, incidence, testthat, knitr, roxygen2, covr, tibble, dplyr, magrittr
+License: MIT + file LICENSE
+MD5sum: d01bf67acf5fb1298303406919b1c5fa
+NeedsCompilation: no
+
+Package: matchmaker
+Version: 0.0.0.9000
+Imports: rlang, forcats
+Suggests: testthat, covr
+License: GPL-3
+MD5sum: b51302c0b520a6f8e65bfaee2306f5bd
+NeedsCompilation: no
+
+Package: msfdict
+Version: 0.0.0.9000
+Imports: sf, tibble, readxl, stats, utils, dplyr, tidyr, rlang
+Suggests: testthat (>= 2.1.0), matchmaker, covr
+License: GPL-3
+MD5sum: 611369e95d98aba9ffd650cd1b001765
+NeedsCompilation: no
+
+Package: msfmisc
+Version: 0.0.0.9000
+Imports: binom, scales, dplyr (>= 0.8.0), rlang, forcats, tidyr (>= 1.0.0), tibble, glue
+Suggests: testthat (>= 2.1.0), outbreaks
+License: GPL-3
+MD5sum: a7aa0f6715c6f145ee2eee6631ed0a2b
+NeedsCompilation: no
+
+Package: sitrep
+Version: 0.1.0
+Depends: R (>= 3.2)
+Imports: anthro, aweek (>= 1.0.0), binom, broom, patchwork, clipr, dplyr (>= 0.8.0), tidyr (>= 1.0.0), rlang (>= 0.4.0), ggplot2 (>= 3.0.0), ggspatial, purrr, tibble, tidyselect, forcats,
+                     epitrix, glue, here, incidence (>= 1.7.0), knitr, linelist, outbreaks, scales, rio, rmarkdown, sf, survey, srvyr, stats, utils, apyramid
+Suggests: testthat (>= 2.1.0), sessioninfo, vdiffr, covr
+License: GPL-3
+MD5sum: 5a74e5838dd1bd4dddb8b8438388386b
+NeedsCompilation: no
