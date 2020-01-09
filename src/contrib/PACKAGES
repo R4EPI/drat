@@ -3,10 +3,9 @@ Version: 0.1.0
 Depends: R (>= 3.2.0)
 Imports: ggplot2 (>= 3.0.0), tidyselect, rlang, forcats, dplyr, scales,
         glue
-Suggests: testthat (>= 2.1.0), survey, srvyr, vdiffr, covr, outbreaks,
-        knitr, rmarkdown
+Suggests: testthat (>= 2.1.0), survey, srvyr, vdiffr, covr, outbreaks
 License: GPL-3
-MD5sum: 4d5f7783e65a7d9759a640f868ef95e7
+MD5sum: fe9ba5d9612534444f878bb4576e14f9
 NeedsCompilation: no
 
 Package: epibuffet
