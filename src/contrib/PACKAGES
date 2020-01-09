@@ -26,7 +26,7 @@ Imports: lubridate, rlang, epitrix, forcats, utils, stats, crayon
 Suggests: outbreaks, incidence, testthat, knitr, roxygen2, covr,
         tibble, dplyr, magrittr
 License: MIT + file LICENSE
-MD5sum: d01bf67acf5fb1298303406919b1c5fa
+MD5sum: 701c85898195da0a423f298535ddb33f
 NeedsCompilation: no
 
 Package: matchmaker
