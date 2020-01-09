@@ -16,7 +16,7 @@ Imports: dplyr (>= 0.8.3), rlang (>= 0.4.0), tidyr (>= 1.0.0), stats,
         forcats, msfmisc
 Suggests: testthat, matchmaker, msfdict
 License: GPL-3
-MD5sum: 0a734e0328c686667120bf875579bbee
+MD5sum: 8da439645145771f685c39f719a62830
 NeedsCompilation: no
 
 Package: linelist
