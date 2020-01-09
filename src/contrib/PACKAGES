@@ -64,5 +64,5 @@ Imports: anthro, aweek (>= 1.0.0), binom, broom, patchwork, clipr,
         utils, apyramid
 Suggests: testthat (>= 2.1.0), sessioninfo, vdiffr, covr
 License: GPL-3
-MD5sum: 5a74e5838dd1bd4dddb8b8438388386b
+MD5sum: e89a7a135f0ff01df4aef470b7d27d7b
 NeedsCompilation: no
