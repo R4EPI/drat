@@ -23,3 +23,25 @@ install.packages("msfmisc")
 install.packages("linelist")   # RECON
 install.packages("matchmaker") # RECON
 ```
+
+# Maintaining this page
+
+The packages included in this drat repository are maintained in the
+[packages.txt][./packages.txt], which contains the github accounts and names of
+the packages. 
+
+The data and metadata associated with this page are built with the
+[{drat.builder}](https://github.com/richfitz/drat.builder) package. 
+
+Install it via remotes:
+
+```r
+remotes::install_github("richfitz/drat.builder")
+```
+
+Steps for updating this page:
+
+1. Pull from the remote to make sure you have the entire history
+2. Open R from this directory
+3. Run `drat.builder::build()`
+4. push the changes
