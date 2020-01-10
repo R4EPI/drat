@@ -1,8 +1,7 @@
 Package: apyramid
 Version: 0.1.0
 Depends: R (>= 3.2.0)
-Imports: ggplot2 (>= 3.0.0), tidyselect, rlang, forcats, dplyr, scales,
-        glue
+Imports: ggplot2 (>= 3.0.0), tidyselect, rlang, forcats, dplyr, scales, glue
 Suggests: testthat (>= 2.1.0), survey, srvyr, vdiffr, covr, outbreaks
 License: GPL-3
 MD5sum: fe9ba5d9612534444f878bb4576e14f9
@@ -10,9 +9,7 @@ NeedsCompilation: no
 
 Package: epibuffet
 Version: 0.0.0.9000
-Imports: dplyr (>= 0.8.3), rlang (>= 0.4.0), tidyr (>= 1.0.0), stats,
-        glue, purrr, tidyselect, tibble (>= 2.1.0), survey, srvyr,
-        forcats, msfmisc
+Imports: dplyr (>= 0.8.3), rlang (>= 0.4.0), tidyr (>= 1.0.0), stats, glue, purrr, tidyselect, tibble (>= 2.1.0), survey, srvyr, forcats, msfmisc
 Suggests: testthat, matchmaker, msfdict
 License: GPL-3
 MD5sum: 8da439645145771f685c39f719a62830
@@ -22,18 +19,17 @@ Package: linelist
 Version: 0.0.39.9000
 Depends: R (>= 3.0.0)
 Imports: lubridate, rlang, epitrix, forcats, utils, stats, crayon
-Suggests: outbreaks, incidence, testthat, knitr, roxygen2, covr,
-        tibble, dplyr, magrittr
+Suggests: outbreaks, incidence, testthat, knitr, roxygen2, covr, tibble, dplyr, magrittr
 License: MIT + file LICENSE
 MD5sum: 701c85898195da0a423f298535ddb33f
 NeedsCompilation: no
 
 Package: matchmaker
-Version: 0.0.0.9000
-Imports: rlang, forcats
-Suggests: testthat, covr
+Version: 0.1.0
+Imports: rlang, forcats, cli
+Suggests: testthat (>= 2.1.0), covr, knitr, rmarkdown
 License: GPL-3
-MD5sum: 340cf4eabd09781504795ae43a6bb45f
+MD5sum: d6dd92daa70751d27cf9478ced27eb66
 NeedsCompilation: no
 
 Package: msfdict
@@ -46,8 +42,7 @@ NeedsCompilation: no
 
 Package: msfmisc
 Version: 0.0.0.9000
-Imports: binom, scales, dplyr (>= 0.8.0), rlang, forcats, tidyr (>=
-        1.0.0), tibble, glue
+Imports: binom, scales, dplyr (>= 0.8.0), rlang, forcats, tidyr (>= 1.0.0), tibble, glue
 Suggests: testthat (>= 2.1.0), outbreaks
 License: GPL-3
 MD5sum: 719633cbb0210d0aab8fb521f8bf501e
@@ -56,12 +51,8 @@ NeedsCompilation: no
 Package: sitrep
 Version: 0.1.0
 Depends: R (>= 3.2)
-Imports: anthro, aweek (>= 1.0.0), binom, broom, patchwork, clipr,
-        dplyr (>= 0.8.0), tidyr (>= 1.0.0), rlang (>= 0.4.0), ggplot2
-        (>= 3.0.0), ggspatial, purrr, tibble, tidyselect, forcats,
-        epitrix, glue, here, incidence (>= 1.7.0), knitr, linelist,
-        outbreaks, scales, rio, rmarkdown, sf, survey, srvyr, stats,
-        utils, apyramid
+Imports: anthro, aweek (>= 1.0.0), binom, broom, patchwork, clipr, dplyr (>= 0.8.0), tidyr (>= 1.0.0), rlang (>= 0.4.0), ggplot2 (>= 3.0.0), ggspatial, purrr, tibble, tidyselect, forcats,
+                     epitrix, glue, here, incidence (>= 1.7.0), knitr, linelist, outbreaks, scales, rio, rmarkdown, sf, survey, srvyr, stats, utils, apyramid
 Suggests: testthat (>= 2.1.0), sessioninfo, vdiffr, covr
 License: GPL-3
 MD5sum: e89a7a135f0ff01df4aef470b7d27d7b
