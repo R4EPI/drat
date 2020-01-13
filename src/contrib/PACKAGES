@@ -41,7 +41,7 @@ Version: 0.0.0.9000
 Imports: sf, tibble, readxl, stats, utils, dplyr, tidyr, rlang
 Suggests: testthat (>= 2.1.0), matchmaker, covr
 License: GPL-3
-MD5sum: d1c881446d1ec0c15094b09741431869
+MD5sum: 2c33a88d3f6c9a2ff05af6ab5536919b
 NeedsCompilation: no
 
 Package: msfmisc
