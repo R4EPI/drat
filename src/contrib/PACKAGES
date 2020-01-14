@@ -6,7 +6,7 @@ Imports: ggplot2 (>= 3.0.0), tidyselect, rlang, forcats, dplyr, scales,
 Suggests: testthat (>= 2.1.0), survey, srvyr, vdiffr, covr, outbreaks,
         knitr, rmarkdown
 License: GPL-3
-MD5sum: 7712122ce33fbdc2884543dad0d22f0d
+MD5sum: a2aca78eee084184ce092b13c50860bf
 NeedsCompilation: no
 
 Package: epibuffet
