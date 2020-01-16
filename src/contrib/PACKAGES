@@ -48,10 +48,10 @@ NeedsCompilation: no
 Package: msfmisc
 Version: 0.0.0.9000
 Imports: binom, scales, dplyr (>= 0.8.0), rlang, forcats, tidyr (>=
-        1.0.0), tibble, glue
-Suggests: testthat (>= 2.1.0), outbreaks
+        1.0.0), tibble, glue, tidyselect
+Suggests: testthat (>= 2.1.0), outbreaks, msfdict
 License: GPL-3
-MD5sum: 719633cbb0210d0aab8fb521f8bf501e
+MD5sum: 1945e7c3f573e8928e0d1d143f69db07
 NeedsCompilation: no
 
 Package: sitrep
