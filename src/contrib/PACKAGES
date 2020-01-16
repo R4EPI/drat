@@ -34,7 +34,7 @@ Version: 0.1.0
 Imports: rlang, forcats, cli
 Suggests: testthat (>= 2.1.0), covr, knitr, rmarkdown
 License: GPL-3
-MD5sum: d6dd92daa70751d27cf9478ced27eb66
+MD5sum: 7e8e62281aaaa9b3c263c78928f5efc8
 NeedsCompilation: no
 
 Package: msfdict
