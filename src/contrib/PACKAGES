@@ -34,7 +34,7 @@ Version: 0.1.0
 Imports: rlang, forcats, cli
 Suggests: testthat (>= 2.1.0), covr, knitr, rmarkdown
 License: GPL-3
-MD5sum: d6dd92daa70751d27cf9478ced27eb66
+MD5sum: 7e8e62281aaaa9b3c263c78928f5efc8
 NeedsCompilation: no
 
 Package: msfdict
@@ -48,10 +48,10 @@ NeedsCompilation: no
 Package: msfmisc
 Version: 0.0.0.9000
 Imports: binom, scales, dplyr (>= 0.8.0), rlang, forcats, tidyr (>=
-        1.0.0), tibble, glue
-Suggests: testthat (>= 2.1.0), outbreaks
+        1.0.0), tibble, glue, tidyselect
+Suggests: testthat (>= 2.1.0), outbreaks, msfdict
 License: GPL-3
-MD5sum: 719633cbb0210d0aab8fb521f8bf501e
+MD5sum: 1945e7c3f573e8928e0d1d143f69db07
 NeedsCompilation: no
 
 Package: sitrep
