@@ -2,6 +2,6 @@ R4EPI/msfdict@master
 R4EPI/msfmisc@master
 R4EPI/epibuffet@master
 reconhub/linelist@master
-reconhub/matchmaker@master
+reconhub/matchmaker@v0.1.0
 R4EPI/apyramid@v0.1.0
 R4EPI/sitrep@v0.1.2
