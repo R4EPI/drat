@@ -10,13 +10,13 @@ MD5sum: a2aca78eee084184ce092b13c50860bf
 NeedsCompilation: no
 
 Package: epibuffet
-Version: 0.0.0.9000
+Version: 0.0.0.9002
 Imports: dplyr (>= 0.8.3), rlang (>= 0.4.0), tidyr (>= 1.0.0), stats,
         glue, purrr, tidyselect, tibble (>= 2.1.0), survey, srvyr,
-        forcats, msfmisc
-Suggests: testthat, matchmaker, msfdict
+        forcats, epikit
+Suggests: testthat, matchmaker (>= 0.1.0), epidict, covr
 License: GPL-3
-MD5sum: 8da439645145771f685c39f719a62830
+MD5sum: 0dc815dae797f8b944b15f5a20e3c7ef
 NeedsCompilation: no
 
 Package: epidict
