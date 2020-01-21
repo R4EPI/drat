@@ -19,6 +19,14 @@ License: GPL-3
 MD5sum: 8da439645145771f685c39f719a62830
 NeedsCompilation: no
 
+Package: epidict
+Version: 0.0.0.9000
+Imports: tibble, readxl, stats, utils, dplyr, tidyr, rlang
+Suggests: testthat (>= 2.1.0), matchmaker, covr
+License: GPL-3
+MD5sum: 024fa757489a42d9ddea308e48a6998d
+NeedsCompilation: no
+
 Package: linelist
 Version: 0.0.39.9000
 Depends: R (>= 3.0.0)
