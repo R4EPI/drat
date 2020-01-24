@@ -24,7 +24,7 @@ Version: 0.0.0.9000
 Imports: tibble, readxl, stats, utils, dplyr, tidyr, rlang
 Suggests: testthat (>= 2.1.0), matchmaker, covr
 License: GPL-3
-MD5sum: 024fa757489a42d9ddea308e48a6998d
+MD5sum: db1b66f8bcb547e80eac0d88109f3b29
 NeedsCompilation: no
 
 Package: epikit
