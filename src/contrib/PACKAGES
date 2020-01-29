@@ -31,9 +31,10 @@ Package: epikit
 Version: 0.0.0.9000
 Imports: binom, scales, dplyr (>= 0.8.0), rlang, forcats, tidyr (>=
         1.0.0), tibble, glue, tidyselect
-Suggests: testthat (>= 2.1.0), outbreaks, epidict, covr
+Suggests: testthat (>= 2.1.0), outbreaks, epidict, covr, knitr,
+        magrittr, rmarkdown
 License: GPL-3
-MD5sum: fe26e63cc71d108d4a5dad054de2ac16
+MD5sum: 5a342943a5f65e33d50bb68637f4d91f
 NeedsCompilation: no
 
 Package: linelist
