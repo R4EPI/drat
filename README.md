@@ -1,5 +1,9 @@
 # Package Repository for the R4EPIs project
 
+
+![Build packages](https://github.com/R4EPI/drat/workflows/Build%20packages/badge.svg)
+
+
 To install packages from the R4EPIs project, you should use the {drat} package:
 
 ```r
