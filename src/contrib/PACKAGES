@@ -20,11 +20,11 @@ MD5sum: 59b620c75082d2d0624b909c52cf43fb
 NeedsCompilation: no
 
 Package: epidict
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Imports: tibble, readxl, stats, utils, dplyr, tidyr, rlang
-Suggests: testthat (>= 2.1.0), matchmaker, covr
+Suggests: testthat (>= 2.1.0), matchmaker, covr, knitr, rmarkdown, DT
 License: GPL-3
-MD5sum: db1b66f8bcb547e80eac0d88109f3b29
+MD5sum: e6574da7cdcff943de3548cd6e1f00b5
 NeedsCompilation: no
 
 Package: epikit
