@@ -4,4 +4,4 @@ R4EPI/epibuffet@master
 reconhub/linelist@master
 reconhub/matchmaker@v0.1.0
 R4EPI/apyramid@v0.1.0
-R4EPI/sitrep@v0.1.4
+R4EPI/sitrep@v0.1.5
