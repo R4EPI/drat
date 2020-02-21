@@ -73,15 +73,16 @@ MD5sum: 1945e7c3f573e8928e0d1d143f69db07
 NeedsCompilation: no
 
 Package: sitrep
-Version: 0.1.5
+Version: 0.1.6
 Depends: R (>= 3.2)
 Imports: anthro, aweek (>= 1.0.0), binom, broom, patchwork, clipr,
         dplyr (>= 0.8.0), tidyr (>= 1.0.0), rlang (>= 0.4.0), ggplot2
         (>= 3.0.0), ggspatial, purrr, tibble, tidyselect, forcats,
         epitrix, glue, here, incidence (>= 1.7.0), knitr, linelist,
-        outbreaks, scales, rio, rmarkdown, sf, survey, srvyr, stats,
-        utils, apyramid (>= 0.1.0), epidict (>= 0.0.0.9001), epikit
+        matchmaker, outbreaks, scales, rio, rmarkdown, sf, survey,
+        srvyr, stats, utils, apyramid (>= 0.1.0), epidict (>=
+        0.0.0.9001), epikit
 Suggests: testthat (>= 2.1.0), sessioninfo, vdiffr, covr
 License: GPL-3
-MD5sum: 125f7ee67920b298c79b77da5f4656cb
+MD5sum: fc5bdc4621bfcd40684fec9ce0708af2
 NeedsCompilation: no
