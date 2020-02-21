@@ -2,6 +2,6 @@ R4EPI/epidict@master
 R4EPI/epikit@master
 R4EPI/epibuffet@master
 reconhub/linelist@master
-reconhub/matchmaker@v0.1.0
+reconhub/matchmaker@v0.1.1
 R4EPI/apyramid@v0.1.0
-R4EPI/sitrep@v0.1.5
+R4EPI/sitrep@v0.1.6
