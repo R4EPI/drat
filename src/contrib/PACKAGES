@@ -16,7 +16,7 @@ Imports: dplyr (>= 0.8.3), rlang (>= 0.4.0), tidyr (>= 1.0.0), stats,
         srvyr, forcats, epikit
 Suggests: testthat, matchmaker (>= 0.1.0), epidict, covr
 License: GPL-3
-MD5sum: 98456436afa7dbac957221b31284724d
+MD5sum: 27b24cb5dd1e23c7f637f21897551409
 NeedsCompilation: no
 
 Package: epidict
