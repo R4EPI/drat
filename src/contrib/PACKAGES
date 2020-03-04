@@ -38,13 +38,14 @@ MD5sum: 5a342943a5f65e33d50bb68637f4d91f
 NeedsCompilation: no
 
 Package: linelist
-Version: 0.0.39.9000
+Version: 0.0.40.9000
 Depends: R (>= 3.0.0)
-Imports: lubridate, rlang, epitrix, forcats, utils, stats, crayon
+Imports: matchmaker (>= 0.1.0), forcats, lubridate, epitrix, utils,
+        stats, crayon
 Suggests: outbreaks, incidence, testthat, knitr, roxygen2, covr,
         tibble, dplyr, magrittr
 License: MIT + file LICENSE
-MD5sum: 701c85898195da0a423f298535ddb33f
+MD5sum: 8796942e25541d0148f1b384fc81637c
 NeedsCompilation: no
 
 Package: matchmaker
