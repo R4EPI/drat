@@ -34,7 +34,7 @@ Imports: binom, scales, dplyr (>= 0.8.0), rlang, forcats, tidyr (>=
 Suggests: testthat (>= 2.1.0), outbreaks, epidict, covr, knitr,
         magrittr, rmarkdown
 License: GPL-3
-MD5sum: 5a342943a5f65e33d50bb68637f4d91f
+MD5sum: 03086b880ee67edf8864ec7a08cf3064
 NeedsCompilation: no
 
 Package: linelist
