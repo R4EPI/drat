@@ -28,13 +28,13 @@ MD5sum: e6574da7cdcff943de3548cd6e1f00b5
 NeedsCompilation: no
 
 Package: epikit
-Version: 0.0.0.9000
+Version: 0.1.0
 Imports: binom, scales, dplyr (>= 0.8.0), rlang, forcats, tidyr (>=
         1.0.0), tibble, glue, tidyselect
 Suggests: testthat (>= 2.1.0), outbreaks, epidict, covr, knitr,
         magrittr, rmarkdown
 License: GPL-3
-MD5sum: 03086b880ee67edf8864ec7a08cf3064
+MD5sum: 359d7ff210f8f1663a18140f1f54c7ea
 NeedsCompilation: no
 
 Package: linelist
