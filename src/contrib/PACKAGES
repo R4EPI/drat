@@ -10,6 +10,26 @@ MD5sum: a2aca78eee084184ce092b13c50860bf
 NeedsCompilation: no
 
 Package: epibuffet
+Version: 0.0.0.9000
+Imports: dplyr (>= 0.8.3), rlang (>= 0.4.0), tidyr (>= 1.0.0), stats,
+        glue, purrr, tidyselect, tibble (>= 2.1.0), survey, srvyr,
+        forcats, msfmisc
+Suggests: testthat, matchmaker, msfdict
+License: GPL-3
+MD5sum: 8da439645145771f685c39f719a62830
+NeedsCompilation: no
+
+Package: epibuffet
+Version: 0.0.0.9002
+Imports: dplyr (>= 0.8.3), rlang (>= 0.4.0), tidyr (>= 1.0.0), stats,
+        glue, purrr, tidyselect, tibble (>= 2.1.0), survey, srvyr,
+        forcats, epikit
+Suggests: testthat, matchmaker (>= 0.1.0), epidict, covr
+License: GPL-3
+MD5sum: 59b620c75082d2d0624b909c52cf43fb
+NeedsCompilation: no
+
+Package: epibuffet
 Version: 0.0.0.9003
 Imports: dplyr (>= 0.8.3), rlang (>= 0.4.0), tidyr (>= 1.0.0), stats,
         glue, purrr, tidyselect (>= 1.0.0), tibble (>= 2.1.0), survey,
@@ -17,6 +37,14 @@ Imports: dplyr (>= 0.8.3), rlang (>= 0.4.0), tidyr (>= 1.0.0), stats,
 Suggests: testthat, matchmaker (>= 0.1.0), epidict, covr
 License: GPL-3
 MD5sum: 27b24cb5dd1e23c7f637f21897551409
+NeedsCompilation: no
+
+Package: epidict
+Version: 0.0.0.9000
+Imports: tibble, readxl, stats, utils, dplyr, tidyr, rlang
+Suggests: testthat (>= 2.1.0), matchmaker, covr
+License: GPL-3
+MD5sum: db1b66f8bcb547e80eac0d88109f3b29
 NeedsCompilation: no
 
 Package: epidict
@@ -28,13 +56,33 @@ MD5sum: e6574da7cdcff943de3548cd6e1f00b5
 NeedsCompilation: no
 
 Package: epikit
+Version: 0.0.0.9000
+Imports: binom, scales, dplyr (>= 0.8.0), rlang, forcats, tidyr (>=
+        1.0.0), tibble, glue, tidyselect
+Suggests: testthat (>= 2.1.0), outbreaks, epidict, covr, knitr,
+        magrittr, rmarkdown
+License: GPL-3
+MD5sum: 03086b880ee67edf8864ec7a08cf3064
+NeedsCompilation: no
+
+Package: epikit
 Version: 0.1.0
 Imports: binom, scales, dplyr (>= 0.8.0), rlang, forcats, tidyr (>=
         1.0.0), tibble, glue, tidyselect
 Suggests: testthat (>= 2.1.0), outbreaks, epidict, covr, knitr,
         magrittr, rmarkdown
 License: GPL-3
-MD5sum: 359d7ff210f8f1663a18140f1f54c7ea
+MD5sum: 73fcee3ea91769122ba0be8bd3a4bb5f
+NeedsCompilation: no
+
+Package: linelist
+Version: 0.0.39.9000
+Depends: R (>= 3.0.0)
+Imports: lubridate, rlang, epitrix, forcats, utils, stats, crayon
+Suggests: outbreaks, incidence, testthat, knitr, roxygen2, covr,
+        tibble, dplyr, magrittr
+License: MIT + file LICENSE
+MD5sum: 701c85898195da0a423f298535ddb33f
 NeedsCompilation: no
 
 Package: linelist
@@ -46,6 +94,22 @@ Suggests: outbreaks, incidence, testthat, knitr, roxygen2, covr,
         tibble, dplyr, magrittr
 License: MIT + file LICENSE
 MD5sum: 8796942e25541d0148f1b384fc81637c
+NeedsCompilation: no
+
+Package: matchmaker
+Version: 0.0.0.9000
+Imports: rlang, forcats
+Suggests: testthat, covr
+License: GPL-3
+MD5sum: 340cf4eabd09781504795ae43a6bb45f
+NeedsCompilation: no
+
+Package: matchmaker
+Version: 0.1.0
+Imports: rlang, forcats, cli
+Suggests: testthat (>= 2.1.0), covr, knitr, rmarkdown
+License: GPL-3
+MD5sum: 7e8e62281aaaa9b3c263c78928f5efc8
 NeedsCompilation: no
 
 Package: matchmaker
@@ -71,6 +135,62 @@ Imports: binom, scales, dplyr (>= 0.8.0), rlang, forcats, tidyr (>=
 Suggests: testthat (>= 2.1.0), outbreaks, msfdict
 License: GPL-3
 MD5sum: 1945e7c3f573e8928e0d1d143f69db07
+NeedsCompilation: no
+
+Package: sitrep
+Version: 0.1.0
+Depends: R (>= 3.2)
+Imports: anthro, aweek (>= 1.0.0), binom, broom, patchwork, clipr,
+        dplyr (>= 0.8.0), tidyr (>= 1.0.0), rlang (>= 0.4.0), ggplot2
+        (>= 3.0.0), ggspatial, purrr, tibble, tidyselect, forcats,
+        epitrix, glue, here, incidence (>= 1.7.0), knitr, linelist,
+        outbreaks, scales, rio, rmarkdown, sf, survey, srvyr, stats,
+        utils, apyramid
+Suggests: testthat (>= 2.1.0), sessioninfo, vdiffr, covr
+License: GPL-3
+MD5sum: e89a7a135f0ff01df4aef470b7d27d7b
+NeedsCompilation: no
+
+Package: sitrep
+Version: 0.1.2
+Depends: R (>= 3.2)
+Imports: anthro, aweek (>= 1.0.0), binom, broom, patchwork, clipr,
+        dplyr (>= 0.8.0), tidyr (>= 1.0.0), rlang (>= 0.4.0), ggplot2
+        (>= 3.0.0), ggspatial, purrr, tibble, tidyselect, forcats,
+        epitrix, glue, here, incidence (>= 1.7.0), knitr, linelist,
+        outbreaks, scales, rio, rmarkdown, sf, survey, srvyr, stats,
+        utils, apyramid, msfdict
+Suggests: testthat (>= 2.1.0), sessioninfo, vdiffr, covr
+License: GPL-3
+MD5sum: 6fbd4d872fc614d562d3e9ce77524290
+NeedsCompilation: no
+
+Package: sitrep
+Version: 0.1.4
+Depends: R (>= 3.2)
+Imports: anthro, aweek (>= 1.0.0), binom, broom, patchwork, clipr,
+        dplyr (>= 0.8.0), tidyr (>= 1.0.0), rlang (>= 0.4.0), ggplot2
+        (>= 3.0.0), ggspatial, purrr, tibble, tidyselect, forcats,
+        epitrix, glue, here, incidence (>= 1.7.0), knitr, linelist,
+        outbreaks, scales, rio, rmarkdown, sf, survey, srvyr, stats,
+        utils, apyramid, epidict
+Suggests: testthat (>= 2.1.0), sessioninfo, vdiffr, covr
+License: GPL-3
+MD5sum: 6ae58ea61f30b43ffad66e394b6aeb70
+NeedsCompilation: no
+
+Package: sitrep
+Version: 0.1.5
+Depends: R (>= 3.2)
+Imports: anthro, aweek (>= 1.0.0), binom, broom, patchwork, clipr,
+        dplyr (>= 0.8.0), tidyr (>= 1.0.0), rlang (>= 0.4.0), ggplot2
+        (>= 3.0.0), ggspatial, purrr, tibble, tidyselect, forcats,
+        epitrix, glue, here, incidence (>= 1.7.0), knitr, linelist,
+        outbreaks, scales, rio, rmarkdown, sf, survey, srvyr, stats,
+        utils, apyramid (>= 0.1.0), epidict (>= 0.0.0.9001), epikit
+Suggests: testthat (>= 2.1.0), sessioninfo, vdiffr, covr
+License: GPL-3
+MD5sum: 125f7ee67920b298c79b77da5f4656cb
 NeedsCompilation: no
 
 Package: sitrep
