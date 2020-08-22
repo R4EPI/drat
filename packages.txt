@@ -1,7 +1,7 @@
 R4EPI/epidict@master
-R4EPI/epikit@master
-R4EPI/epibuffet@master
+R4EPI/epikit@znk-use-name-repair
+R4EPI/epibuffet@znk-fix-15
 reconhub/linelist@master
 reconhub/matchmaker@v0.1.1
-R4EPI/apyramid@v0.1.0
+R4EPI/apyramid@v0.1.2
 R4EPI/sitrep@v1.6.0 # N.B. Zhian was super jetlagged when he made this release that was supposed to be 0.1.6
