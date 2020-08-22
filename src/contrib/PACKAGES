@@ -49,6 +49,16 @@ License: GPL-3
 MD5sum: f8105daab602f93e04d6c022795a05d1
 NeedsCompilation: no
 
+Package: epibuffet
+Version: 0.0.0.9005
+Imports: dplyr (>= 1.0.2), rlang (>= 0.4.0), tidyr (>= 1.0.0), stats,
+        glue, purrr, tidyselect (>= 1.0.0), tibble (>= 3.0.0), survey,
+        srvyr, forcats, epikit (>= 0.1.2)
+Suggests: testthat, matchmaker (>= 0.1.0), epidict, covr
+License: GPL-3
+MD5sum: f959b5491d137c0172c66d30b8b8c02a
+NeedsCompilation: no
+
 Package: epidict
 Version: 0.0.0.9000
 Imports: tibble, readxl, stats, utils, dplyr, tidyr, rlang
