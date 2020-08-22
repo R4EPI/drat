@@ -85,6 +85,16 @@ License: GPL-3
 MD5sum: 73fcee3ea91769122ba0be8bd3a4bb5f
 NeedsCompilation: no
 
+Package: epikit
+Version: 0.1.1
+Imports: binom, scales, dplyr (>= 0.8.0), rlang, forcats, tidyr (>=
+        1.0.0), tibble, glue, tidyselect
+Suggests: testthat (>= 2.1.0), outbreaks, epidict, covr, knitr,
+        magrittr, rmarkdown
+License: GPL-3
+MD5sum: c622c044b298278f8a29373c82c1423c
+NeedsCompilation: no
+
 Package: linelist
 Version: 0.0.39.9000
 Depends: R (>= 3.0.0)
