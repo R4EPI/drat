@@ -9,6 +9,17 @@ License: GPL-3
 MD5sum: a2aca78eee084184ce092b13c50860bf
 NeedsCompilation: no
 
+Package: apyramid
+Version: 0.1.2
+Depends: R (>= 3.2.0)
+Imports: ggplot2 (>= 3.0.0), tidyselect, rlang, forcats, dplyr, scales,
+        glue
+Suggests: testthat (>= 2.1.0), survey, srvyr, vdiffr, covr, outbreaks,
+        knitr, rmarkdown
+License: GPL-3
+MD5sum: 656ab905deb09e995f0bdf73621f1bf5
+NeedsCompilation: no
+
 Package: epibuffet
 Version: 0.0.0.9000
 Imports: dplyr (>= 0.8.3), rlang (>= 0.4.0), tidyr (>= 1.0.0), stats,
