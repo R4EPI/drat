@@ -123,7 +123,7 @@ Imports: binom, scales, dplyr (>= 1.0.2), rlang, forcats, tidyr (>=
 Suggests: testthat (>= 2.1.0), outbreaks, epidict, covr, knitr,
         magrittr, rmarkdown
 License: GPL-3
-MD5sum: 66475799db7b84b330f2732ea22bda5e
+MD5sum: 869cca465b43423f1b428a13176621ea
 NeedsCompilation: no
 
 Package: linelist
